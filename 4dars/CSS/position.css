@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.content {
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    margin: 100px auto;
+    position: relative;
+} 
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: block;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
